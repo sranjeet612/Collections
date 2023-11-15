@@ -12,21 +12,21 @@ namespace Collections
     {
         public static void Main()
         {
-            Queue<string> queue = new Queue<string>();
+            Queue<string> obj = new Queue<string>();
 
-            queue.Enqueue(".Net");
-            queue.Enqueue("Azure");
-            queue.Enqueue("MVC");
+            obj.Enqueue(".Net");
+            obj.Enqueue("Azure");
+            obj.Enqueue("MVC");
 
-            foreach (var item in queue)
+            foreach (var item in obj)
             {
                 Console.WriteLine(item);
             }
 
-            string s = queue.Peek();
+            string s = obj.Peek();
             Console.WriteLine(s);
 
-            foreach (var item in queue)
+            foreach (var item in obj)
             {
                 Console.WriteLine(item);
             }
